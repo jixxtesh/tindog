@@ -1,0 +1,195 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 3.5rem;
+
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+
+/* Sections */
+
+.colored{
+background-color: #ff4C68;
+color: white;
+}
+
+.white-section{
+background-color: white;
+}
+
+
+
+/* Navigation bar */
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    }
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+
+/* Title */
+
+#title .container-fluid{
+    padding: 3% 7% 15%;
+    text-align: left;
+}
+
+
+.titleimg{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 13%;
+    top: 210px;
+}
+
+
+
+/* Download button */
+
+.downbtn{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* Icons */
+
+#features{
+ position: relative;
+}
+
+.heading-icons{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 510;
+    font-size: 1.5em;
+    margin: 15px 0;
+    }
+
+.text-icons{
+    color: #8f8f8f;
+    padding: 5%;
+
+}
+.icon{
+    color:#EF8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4C68;
+}
+
+
+
+/* Testimonial */
+
+#testimonials{
+    background-color: #EF8172;
+}
+
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 2.6rem;
+}
+
+.testimonial-image{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+
+
+/* Press */
+
+
+#press{
+    background-color: #EF8172;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 0 20px 20px 50px;
+}
+
+
+
+/* Pricing */
+
+#pricing{
+    
+    padding: 100px;
+}
+.price-text{
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+.card-css{
+    
+    padding: 4% 2%;
+}
+
+/* Footer */
+
+#footer{
+    padding: 4% 15%;
+    
+    color: #8f8f8f;
+}
+.footer-icon{
+    color: black;
+    margin: 0 1.5% 2% 1.5%;
+}
+.footer-icon:hover{
+    color:#ff4C68;
+}
+
+
+@media screen and ( max-width: 1000px){
+    .titleimg{
+        margin-bottom: 150px;
+        transform: rotate(0deg);
+        position: relative;
+        width: 50%;
+        margin-left: 210px;
+        
+    }
+}
